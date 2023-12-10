@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    
+    <script>{
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var no = document.getElementById('no').value;
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return validateForm()">
+    
+        <label for = "name">Name :</label>
+        <input type="text" id="name"required>
+        
+        <br><br>
+        
+        
+        <label for = "email">email :</label>
+        <input type="email" id="email"required>
+        
+        
+        <br><br>
+
+        <label for = "no">Mobile no :</label>
+        <input type="text" id="no"required>
+
+        <br><br>
+
+        
+        <input type="submit" value="Submit" onclick="alert('form submitted')">
+        
+        
+    </form>
+</body>
+
+</html>
